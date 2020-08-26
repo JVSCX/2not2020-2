@@ -65,7 +65,18 @@
 
 
     //Potenciaçao (** JS > 2014)
-    res = q1 ** q2
+    res = q1 ** q2  // 78125
+    res = q1 ** q3  // 625 , com conversao q3
+    res = q1 ** v2  // Nan
+
+    // Outra Forma de potenciacai (forma antiga)
+    res = Math.pow(q1, q2)   //78125
+
+    // Operador de modulo (resto da divisao)
+    res = 5 % 2     //1 (resto da divisao)
+    res = 11 % 3    //2 (resto da divisao)
+    res = 8 % 2     //0
+    
     alert(res) 
 
     
