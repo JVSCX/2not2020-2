@@ -26,12 +26,15 @@ let aleatorio = function() {
     return Math.floor(Math.random() * 1000)   
 }
 
+//
+
 console.log('------------------------------------------')
 console.log(aleatorio())
 
 //arrow fuction com 0 argumento
 //-os parenteses vazios marcam o lugar do argumento (obrigatorios)
 let aleatorio2 = () => Math.floor(Math.random() * 1000)
+
 
 
 
